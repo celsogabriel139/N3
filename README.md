@@ -52,5 +52,10 @@ override fun onDestroy() {
     super.onDestroy()
 }
 
+--
+
+Vale ressaltar que os métodos do ciclo de vida mencionados (onCreate(), onStart(), onResume(), onPause(), onStop() e onDestroy()) não são exclusivos do Kotlin; eles fazem parte da estrutura de desenvolvimento Android e estão presentes em outras linguagens suportadas para Android, como Java.
+
+**Neste mesmo repositório, também está incluso uma imagem que exemplifica todos a ordem de preocesso desses métodos, assim como um código que se utiliza dos mesmos.**
 
 
