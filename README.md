@@ -56,6 +56,29 @@ override fun onDestroy() {
 
 Vale ressaltar que os métodos do ciclo de vida mencionados (onCreate(), onStart(), onResume(), onPause(), onStop() e onDestroy()) não são exclusivos do Kotlin; eles fazem parte da estrutura de desenvolvimento Android e estão presentes em outras linguagens suportadas para Android, como Java.
 
-**Neste mesmo repositório, também está incluso uma imagem que exemplifica todos a ordem de preocesso desses métodos, assim como um código que se utiliza dos mesmos.**
+**Neste mesmo repositório, também está incluso uma imagem que exemplifica todos a ordem de preocesso desses métodos, assim como um código que se utiliza dos mesmos. Aqui abaixo se econtra apenas uma breve ilustração rudimentar:**
+
++-----------+      +------------+       +------------+
+|           |      |            |       |            |
+|  onCreate()| ---->|  onStart() | ----> | onResume() |
+|           |      |            |       |            |
++-----------+      +------------+       +------------+
+     |                   |                      |
+     |                   |                      |
+     |                   |                      |
+     |                   |                      |
+     |                   v                      |
+     +--------------- onPause() <--------------+
+     |                   |
+     |                   |
+     |                   |
+     |                   v
+     +--------------- onStop() <---------------+
+     |                   |
+     |                   |
+     |                   v
+     +--------------- onDestroy() <-----------+
+
+As setas indicam a ordem em que os métodos do ciclo de vida são chamados. O ciclo começa com onCreate() e segue até onResume(), indicando que a Activity está em primeiro plano e pronta para interação com o usuário. Quando a Activity é pausada, onPause() é chamado, seguido por onStop() quando a Activity não está mais visível. Por fim, onDestroy() é chamado quando a Activity está sendo destruída, seja pelo sistema operacional ou pelo usuário.
 
 
