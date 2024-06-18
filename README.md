@@ -20,46 +20,37 @@ O formato de declaração de cada método se resume em:
 
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    // Inicializa a interface do usuário e variáveis
     setContentView(R.layout.activity_main)
-    // Outras inicializações
 }
 
 **2. onStart():**
 
 override fun onStart() {
     super.onStart()
-    // A Activity se torna aqui visível
 }
 
 **3. onResume():**
 
 override fun onResume() {
     super.onResume()
-    // A Activity está visível e pronta para interação
 }
 
 **4. onPause():**
 
 override fun onPause() {
     super.onPause()
-    // Outra Activity está entrando em primeiro plano
-    // Salvar dados que devem persistir
 }
 
 **5. onStop():**
 
 override fun onStop() {
     super.onStop()
-    // A Activity não está mais visível
 }
 
 **6. onDestroy():**
 
 override fun onDestroy() {
     super.onDestroy()
-    // A Activity está sendo destruída
-    // Liberarando recursos não utilizados
 }
 
 
