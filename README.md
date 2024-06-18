@@ -27,8 +27,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 **2. onStart():**
 
-kotlin
-
 override fun onStart() {
     super.onStart()
     // A Activity se torna aqui visível
@@ -36,16 +34,12 @@ override fun onStart() {
 
 **3. onResume():**
 
-kotlin
-
 override fun onResume() {
     super.onResume()
     // A Activity está visível e pronta para interação
 }
 
 **4. onPause():**
-
-kotlin
 
 override fun onPause() {
     super.onPause()
@@ -55,16 +49,12 @@ override fun onPause() {
 
 **5. onStop():**
 
-kotlin
-
 override fun onStop() {
     super.onStop()
     // A Activity não está mais visível
 }
 
 **6. onDestroy():**
-
-kotlin
 
 override fun onDestroy() {
     super.onDestroy()
