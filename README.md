@@ -1,5 +1,5 @@
-# N3 - A aplicação Android e o seu Ciclo de Vida
-**A aplicação Android e o seu Ciclo de Vida**
+# N3 - A aplicação Android e o seu Ciclo de Vida da Activity
+**A Activity e o seu Ciclo de Vida**
 
 O ciclo de vida de uma aplicação Android é fundamental para entender como a aplicação interage com o ambiente e como o sistema operacional gerencia seus recursos. Cada componente da aplicação, como 'Activities' ou os 'Services' seguem esse conceito da ordem desse ciclo pré-definido pela linguagem do próprio Kotlin (Android).
 
