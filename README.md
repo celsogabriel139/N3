@@ -11,7 +11,7 @@ Acontece que a 'Activity' não é algo totalmente estático durante seu funciona
 5. **onStop()**: Chamado quando a Activity não está mais visível.
 6. **onDestroy()**: Chamado quando queremos que a Activity seja "destruída", ou seja, liberar dados que não vão ser mais úteis, que ficariam ocupando um espaço na memória de maneira desnecessária.
 
-Cada um desses pontos é importante porque permite que você gerencie como sua aplicação se comporta, sem excessão. O maior proveito que pode-se ser tirado de um ciclo de vida de uma Activity recai sobre o uso devido de cada um dos seus respectivos métodos. Entre os beneficios pode ser citado a opção de salvar e restaurar o estado da Activity, garantindo que os dados não sejam perdidos durante mudanças de configuração ou interações com o usuário e que a aplicação responda de forma dinâmica às interações do usuário, como por exemplo, igual a "pausar um vídeo" quando a Activity própria é pausada. A pessoa estar mais imersa e no controle do funcionamento da lógica de seu código.
+Cada um desses pontos são importantes pois permitem que você gerencie como sua aplicação se comporta, sem excessão. O maior proveito que pode-se ser tirado de um ciclo de vida de uma Activity recai sobre o uso devido de cada um dos seus respectivos métodos. Entre os beneficios pode ser citado a opção de salvar e restaurar o estado da Activity, garantindo que os dados não sejam perdidos durante mudanças de configuração ou interações com o usuário e que a aplicação responda de forma dinâmica às interações do usuário, como por exemplo, igual a "pausar um vídeo" quando a Activity própria é pausada. A pessoa estar mais imersa e no controle do funcionamento da lógica de seu código.
 
 O formato de declaração de cada método se resume em:
 
