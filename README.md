@@ -13,6 +13,11 @@ Acontece que a 'Activity' não é algo totalmente estático durante seu funciona
 
 Cada um desses pontos são importantes pois permitem que você gerencie como sua aplicação se comporta, sem excessão. O maior proveito que pode-se ser tirado de um ciclo de vida de uma Activity recai sobre o uso devido de cada um dos seus respectivos métodos. Entre os beneficios pode ser citado a opção de salvar e restaurar o estado da Activity, garantindo que os dados não sejam perdidos durante mudanças de configuração ou interações com o usuário e que a aplicação responda de forma dinâmica às interações do usuário, como por exemplo, igual a "pausar um vídeo" quando a Activity própria é pausada. A pessoa estar mais imersa e no controle do funcionamento da lógica de seu código.
 
+**Eis aqui um exemplo desses métodos declarados**:
+
+![2](https://github.com/celsogabriel139/N3/assets/161472637/9087d4ae-69ad-4bbd-a7ff-52cb10fefed7)
+
+
 --
 
 Vale ressaltar que os métodos do ciclo de vida mencionados (onCreate(), onStart(), onResume(), onPause(), onStop() e onDestroy()) não são exclusivos do Kotlin; eles fazem parte da estrutura de desenvolvimento Android e estão presentes em outras linguagens suportadas para Android, como Java.
