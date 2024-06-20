@@ -22,5 +22,7 @@ Cada um desses pontos são importantes pois permitem que você gerencie como sua
 
 Vale ressaltar que os métodos do ciclo de vida mencionados (onCreate(), onStart(), onResume(), onPause(), onStop() e onDestroy()) não são exclusivos do Kotlin; eles fazem parte da estrutura de desenvolvimento Android e estão presentes em outras linguagens suportadas para Android, como Java.
 
+**Na mesma imagem se vê também mais um método, o 'onRestart()'**. No caso da atividade ter sido parada e nenhum outra ação tomada, se utiliza tal método para realizar o que seu nome já implica, o recomeço da atividade após parada. Na linha do tempo, se localizaria entre um onStop() e onStart(). Depois que onRestart() é chamado, o método onStart(), que inicializa a atividade, é novamente chamado, recomeçando do zero. Quando se trabalha com "UI" (Interface do Usuário), os DEVS se utilizam bastante desse método para atualizar o estado da interface ou revalidar os seus dados.
+
 **Neste mesmo repositório, também está incluso uma imagem que exemplifica toda a ordem de preocesso desses métodos.**
 
