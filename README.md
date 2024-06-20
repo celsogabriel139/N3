@@ -17,40 +17,33 @@ O formato de declaração de cada método se resume em:
 
 **1. onCreate():**
 
-override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
-}
+![create](https://github.com/celsogabriel139/N3/assets/161472637/9a685fd6-b452-442a-b60b-c46cd691eadf)
+
 
 **2. onStart():**
 
-override fun onStart() {
-    super.onStart()
-}
+![start](https://github.com/celsogabriel139/N3/assets/161472637/ddf41768-ff31-4ab3-8b03-b2f8760eaa73)
+
 
 **3. onResume():**
 
-override fun onResume() {
-    super.onResume()
-}
+![resume](https://github.com/celsogabriel139/N3/assets/161472637/ab30cc06-8345-4338-b5c3-5e9517d9b47e)
+
 
 **4. onPause():**
 
-override fun onPause() {
-    super.onPause()
-}
+![pause](https://github.com/celsogabriel139/N3/assets/161472637/12448cfe-e3b6-4bab-9a9a-03f893814cc9)
+
 
 **5. onStop():**
 
-override fun onStop() {
-    super.onStop()
-}
+![stop](https://github.com/celsogabriel139/N3/assets/161472637/6d1d62ee-acd0-4c00-b8ee-00967505f17f)
+
 
 **6. onDestroy():**
 
-override fun onDestroy() {
-    super.onDestroy()
-}
+![destroy](https://github.com/celsogabriel139/N3/assets/161472637/3a5f7c61-38c8-4815-8ec4-fbafc8ce9da9)
+
 
 --
 
